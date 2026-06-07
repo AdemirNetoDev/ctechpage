@@ -62,7 +62,7 @@ export default function Footer() {
             </h3>
             <div className="space-y-3">
               <a
-                href={WHATSAPP_URL}
+                href={`https://wa.me/5521999955205?text=${encodeURIComponent("Olá, gostaria de saber mais sobre os serviços da Condé Tech!")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-[#A0A0B0] hover:text-[#3B82F6] text-sm transition-colors duration-200 group"
@@ -74,7 +74,7 @@ export default function Footer() {
                 WhatsApp
               </a>
               <a
-                href="https://instagram.com/condetech"
+                href="https://www.instagram.com/conde.tech/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-[#A0A0B0] hover:text-[#3B82F6] text-sm transition-colors duration-200 group"
@@ -83,7 +83,7 @@ export default function Footer() {
                 <div className="w-8 h-8 rounded-full bg-[rgba(59,130,246,0.1)] flex items-center justify-center group-hover:bg-[rgba(59,130,246,0.2)] transition-colors">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
                 </div>
-                @condetech
+                @conde.tech
               </a>
             </div>
           </div>
