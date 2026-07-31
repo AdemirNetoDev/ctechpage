@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="100%" height="100%" fill="transparent"/>
+  <!-- Ribbon -->
+  <rect x="60" y="30" width="140" height="34" rx="4" fill="url(#rgrad)" />
+  <defs>
+    <linearGradient id="rgrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+  <text x="70" y="54" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">2ª EDIÇÃO</text>
+
+  <!-- AGOSTO -->
+  <g transform="translate(0,90)">
+    <text x="60" y="120" font-family="Impact, Arial Black, sans-serif" font-size="120" fill="#FFFFFF">AGOSTO</text>
+    <!-- small color bars inside letters (decorative) -->
+    <rect x="105" y="55" width="8" height="32" fill="#22C55E" rx="2" />
+    <rect x="235" y="55" width="8" height="32" fill="#7C3AED" rx="2" />
+    <rect x="500" y="55" width="8" height="32" fill="#F43F5E" rx="2" />
+  </g>
+
+  <text x="250" y="230" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="36" fill="#FFFFFF">RUNNING</text>
+</svg>

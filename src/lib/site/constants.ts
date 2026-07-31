@@ -118,10 +118,10 @@ export const PORTFOLIO_CREATIVES = [
 
 // Logos dos clientes — coloque os arquivos em public/logos/
 export const CLIENT_LOGOS = [
-  { id: 1, src: '/logos/logo1.png', alt: 'Cliente 1' },
-  { id: 2, src: '/logos/logo2.png', alt: 'Cliente 2' },
-  { id: 3, src: '/logos/logo3.png', alt: 'Cliente 3' },
-  { id: 4, src: '/logos/logo4.png', alt: 'Cliente 4' },
+  { id: 1, src: '/logos/logo1.svg', alt: 'Grupo Asocial' },
+  { id: 2, src: '/logos/logo2.svg', alt: 'Agosto Running' },
+  { id: 3, src: '/logos/logo3.svg', alt: 'Matilda Café' },
+  { id: 4, src: '/logos/logo4.svg', alt: 'Marca A' },
 ]
 
 // --- Mantive suas outras constantes (STATS, TESTIMONIALS, FAQS) abaixo ---

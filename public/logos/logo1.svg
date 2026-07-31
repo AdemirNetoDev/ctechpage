@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="100%" height="100%" fill="transparent"/>
+  <g transform="translate(40,40)">
+    <text x="0" y="70" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="64" fill="#FFFFFF">GRUPO</text>
+    <text x="0" y="160" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="96" fill="#FFFFFF">ASOCIAL</text>
+    <line x1="0" x2="700" y1="190" y2="190" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="2" />
+    <text x="0" y="230" font-family="Inter, Arial, sans-serif" font-weight="500" font-size="18" fill="#E6E6E6">A.SOCIAL CALÇADOS · A.SOCIAL TECIDOS · ARMARINHO PRIMAVERA</text>
+  </g>
+</svg>
