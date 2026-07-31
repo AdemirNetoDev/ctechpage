@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import Navbar from "@/components/site/Navbar";
 import Hero from "@/components/site/Hero";
-import Metrics from "@/components/site/Metrics";
+import Results from "@/components/site/Results";
 import Services from "@/components/site/Services";
 import Portfolio from "@/components/site/Portfolio";
 import Benefits from "@/components/site/Benefits";
@@ -12,6 +12,7 @@ import FAQ from "@/components/site/FAQ";
 import CTA from "@/components/site/CTA";
 import Footer from "@/components/site/Footer";
 import WhatsAppFloat from "@/components/site/WhatsAppFloat";
+import Clients from "@/components/site/Clients";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -49,7 +50,7 @@ function Index() {
     <>
       <a
         href="#hero"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-[#FF5C00] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:text-sm focus:font-semibold"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-[#FF5C00] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:text-sm focus:font-[...]
       >
         Ir para o conteúdo principal
       </a>
@@ -58,12 +59,17 @@ function Index() {
 
       <main id="main-content">
         <Hero />
-        <Metrics />
+
+        {/* Ordem solicitada: Serviços → Resultados → Portfólio → Sobre → FAQ */}
         <Services />
+        <Results />
+
         <Portfolio />
         <Benefits />
         <About />
         <Testimonials />
+        <Clients />
+
         <FAQ />
         <CTA />
       </main>
