@@ -16,78 +16,115 @@ export const SERVICES = [
   {
     id: 1,
     icon: 'image',
-    title: 'Posts para o Feed',
-    subtitle: 'Conteúdo que para o scroll',
+    title: 'Vídeos que prendem atenção e vendem',
+    subtitle: 'Produção Audiovisual',
     description:
-      'Criamos posts visuais e estratégicos que representam sua marca com profissionalismo. Nada de template genérico — cada post é pensado para o seu negócio e para o seu público.',
+      'Da captação à edição, produzimos vídeos com cortes dinâmicos, ritmo envolvente e acabamento profissional. Cada entrega é pensada para o formato certo, na plataforma certa, com um único objetivo: gerar engajamento e conversão.',
     items: [
-      'Design exclusivo por negócio',
-      'Legendas com copywriting',
-      'Calendário editorial mensal',
-      'Aprovação antes de publicar',
+      'Reels e vídeos verticais',
+      'Edição com cortes dinâmicos e trilha',
+      'Roteiro e direção de cena',
+      'Entrega otimizada por plataforma',
     ],
   },
   {
     id: 2,
     icon: 'smartphone',
-    title: 'Stories Diários',
-    subtitle: 'Presença que gera conexão',
+    title: 'Presença que gera conexão',
+    subtitle: 'Gestão de Redes Sociais',
     description:
-      'Stories bem feitos aproximam sua empresa do cliente. Mantemos sua marca ativa todos os dias, gerando engajamento real e lembrança de marca constante.',
+      'Sua marca ativa e presente todos os dias, sem depender de "postar quando lembrar". Cuidamos do planejamento, produção e publicação do Instagram, sempre com aprovação prévia e identidade visual preservada.',
     items: [
-      'Stories interativos e criativos',
-      'Enquetes, contagens e CTAs',
-      'Frequência consistente',
-      'Identidade visual preservada',
+      'Calendário editorial mensal',
+      'Stories interativos e posts para o feed',
+      'Legendas com copywriting',
+      'Aprovação antes de publicar',
     ],
   },
   {
     id: 3,
     icon: 'trending-up',
-    title: 'Estratégia e Relatórios',
-    subtitle: 'Mais do que postar — crescer',
+    title: 'Conteúdos e criativos que prendem, engajam e convertem',
+    subtitle: 'Criação de Conteúdo',
     description:
-      'Não somos só criadores de conteúdo. Planejamos, analisamos e ajustamos a estratégia para que cada publicação trabalhe a favor dos seus resultados.',
+      'Roteiro, copy e estratégia por trás de cada peça. Entendemos o que faz sua audiência parar de rolar o feed, com roteiros e legendas alinhados ao momento do negócio, sempre com foco em conversão.',
     items: [
-      'Planejamento mensal de conteúdo',
-      'Relatório de desempenho',
-      'Ajustes constantes de estratégia',
-      'Consultoria direta via WhatsApp',
+      'Roteiros para Reels e vídeos',
+      'Copywriting estratégico',
+      'Linha editorial alinhada à marca',
+      'Adaptação por público e formato',
     ],
-  },
-]
-
-export const BENEFITS = [
-  {
-    id: 1,
-    number: '01',
-    title: 'Você recupera seu tempo',
-    description:
-      'Chega de passar horas tentando criar post, pensar em legenda e lembrar de publicar. A Condé Tech assume essa responsabilidade inteira. Você foca no que realmente importa: atender bem e vender mais.',
-  },
-  {
-    id: 2,
-    number: '02',
-    title: 'Conteúdo profissional sem custo de agência grande',
-    description:
-      'Sua empresa terá o mesmo nível de presença digital de grandes marcas — com um plano acessível, feito para a realidade do empresário local. Visual bonito, texto certo, na hora certa.',
-  },
-  {
-    id: 3,
-    number: '03',
-    title: 'Presença constante sem depender de você',
-    description:
-      'Redes sociais exigem consistência. Uma semana sem postar afasta o algoritmo e o cliente. Com a Condé Tech, sua empresa aparece todos os dias — mesmo nos seus dias mais corridos.',
   },
   {
     id: 4,
-    number: '04',
-    title: 'Atendimento próximo de quem conhece a região',
+    icon: 'image',
+    title: 'Branding',
+    subtitle: 'Identidade e posicionamento',
     description:
-      'Não somos uma agência de São Paulo que nunca pisou na sua cidade. Somos daqui. Conhecemos o mercado local, as datas regionais, o perfil do seu cliente. Isso faz toda a diferença.',
+      'Construímos identidades memoráveis que traduzem seus valores e conectam com o público.',
+    items: ['Naming', 'Identidade visual', 'Guia de aplicação', 'Posicionamento'],
+  },
+  {
+    id: 5,
+    icon: 'trending-up',
+    title: 'Tráfego Pago',
+    subtitle: 'Aquisição e performance',
+    description:
+      'Campanhas otimizadas para gerar leads e vendas com foco em ROI e escalabilidade.',
+    items: ['Segmentação', 'Criativos para anúncios', 'Otimização contínua', 'Relatórios'],
+  },
+  {
+    id: 6,
+    icon: 'smartphone',
+    title: 'Landing Pages e Sites',
+    subtitle: 'Conversão e presença online',
+    description:
+      'Sites e landing pages otimizadas para conversão, velocidade e experiência do usuário.',
+    items: ['Design responsivo', 'Otimização para conversão', 'Implementação rápida', 'SEO básico'],
+  },
+  {
+    id: 7,
+    icon: 'image',
+    title: 'Consultoria Estratégica',
+    subtitle: 'Planejamento para resultados',
+    description:
+      'Análises e recomendações práticas para alinhar ações digitais ao seu objetivo de negócio.',
+    items: ['Auditoria de presença', 'Plano de ação', 'Mentoria mensal', 'KPI alinhados'],
   },
 ]
 
+// Portfólio: antes/depois (placeholders). Substitua os caminhos das imagens quando tiver as originais.
+export const PORTFOLIO_BEFORE_AFTER = [
+  {
+    id: 1,
+    before: '/portfolio/before1.jpg',
+    after: '/portfolio/after1.jpg',
+    description: 'Caso 1 — aumento de engajamento e posicionamento visual',
+  },
+  {
+    id: 2,
+    before: '/portfolio/before2.jpg',
+    after: '/portfolio/after2.jpg',
+    description: 'Caso 2 — melhoria de conversão via criativos',
+  },
+]
+
+// Galeria de criativos (placeholders)
+export const PORTFOLIO_CREATIVES = [
+  { id: 1, src: '/portfolio/creative1.jpg', alt: 'Criativo 1' },
+  { id: 2, src: '/portfolio/creative2.jpg', alt: 'Criativo 2' },
+  { id: 3, src: '/portfolio/creative3.jpg', alt: 'Criativo 3' },
+]
+
+// Logos dos clientes — coloque os arquivos em public/logos/
+export const CLIENT_LOGOS = [
+  { id: 1, src: '/logos/logo1.png', alt: 'Cliente 1' },
+  { id: 2, src: '/logos/logo2.png', alt: 'Cliente 2' },
+  { id: 3, src: '/logos/logo3.png', alt: 'Cliente 3' },
+  { id: 4, src: '/logos/logo4.png', alt: 'Cliente 4' },
+]
+
+// --- Mantive suas outras constantes (STATS, TESTIMONIALS, FAQS) abaixo ---
 export const STATS = [
   { value: 50, suffix: '+', label: 'Empresas atendidas' },
   { value: 2000, suffix: '+', label: 'Posts e stories criados' },
@@ -98,7 +135,7 @@ export const STATS = [
 export const TESTIMONIALS = [
   {
     id: 1,
-    text: 'Antes eu ficava semanas sem postar nada porque não tinha tempo. Desde que contratei a Condé Tech, minha loja tem presença todo dia e já sinto a diferença no movimento. Vale muito o investimento.',
+    text: 'Antes eu ficava semanas sem postar nada porque não tinha tempo. Desde que contratei a Condé Tech, minha loja tem presença todo dia e já sinto a diferença no movimento. Vale muito a pena.',
     name: 'Fernanda R.',
     role: 'Proprietária de salão de beleza',
     city: 'Bom Jesus do Itabapoana/RJ',
@@ -112,14 +149,6 @@ export const TESTIMONIALS = [
     city: 'Região do Noroeste Fluminense',
     initial: 'M',
   },
-  {
-    id: 3,
-    text: 'O atendimento é muito próximo, parece que é uma pessoa da minha equipe cuidando das redes. Eles entendem meu negócio, tiram dúvidas rápido e entregam sempre no prazo. Estou muito satisfeita.',
-    name: 'Patrícia M.',
-    role: 'Clínica de estética',
-    city: 'Bom Jesus do Itabapoana/RJ',
-    initial: 'P',
-  },
 ]
 
 export const FAQS = [
@@ -127,36 +156,12 @@ export const FAQS = [
     id: 1,
     question: 'Quanto custa o serviço?',
     answer:
-      'Os planos são personalizados de acordo com o tamanho do seu negócio, a quantidade de posts e as redes sociais que você quer trabalhar. Por isso não temos um preço fixo na tabela — queremos entender sua necessidade antes de apresentar uma proposta. Entre em contato pelo WhatsApp e te enviamos um orçamento sem compromisso.',
+      'Os planos são personalizados de acordo com o tamanho do seu negócio, a quantidade de posts e as redes sociais que você quer trabalhar. Por isso não temos um preço fixo na tabela — cada proposta é feita sob medida.',
   },
   {
     id: 2,
     question: 'Funciona para o meu tipo de negócio?',
     answer:
-      'Sim. Atendemos empresas dos mais variados segmentos: salões de beleza, academias, clínicas, lojas, restaurantes, escritórios, prestadores de serviço e muito mais. Se você tem um negócio e quer crescer nas redes, a Condé Tech tem uma solução para você.',
-  },
-  {
-    id: 3,
-    question: 'Preciso aparecer nas fotos e vídeos?',
-    answer:
-      'Não necessariamente. Trabalhamos com design, artes gráficas, banco de imagens e conteúdo estratégico que não depende de você aparecer toda hora. Mas se quiser aparecer, melhor ainda — conteúdo humanizado tende a gerar muito mais engajamento.',
-  },
-  {
-    id: 4,
-    question: 'Quanto tempo leva para ver resultados?',
-    answer:
-      'As redes sociais exigem consistência, e resultados sólidos geralmente aparecem a partir do segundo ou terceiro mês de trabalho contínuo. Mas desde o primeiro mês você já sentirá a diferença na organização, na frequência de publicações e na qualidade visual da sua marca.',
-  },
-  {
-    id: 5,
-    question: 'Posso cancelar quando quiser?',
-    answer:
-      'Sim. Não prendemos ninguém. Trabalhamos com contratos mensais justamente para que você tenha liberdade. Nossa aposta é no resultado — se estiver gerando valor, você vai querer continuar.',
-  },
-  {
-    id: 6,
-    question: 'Vocês atendem fora de Bom Jesus do Itabapoana?',
-    answer:
-      'Sim! Atendemos toda a região do Noroeste Fluminense e também empresas de outras cidades de forma 100% remota. O trabalho é digital — podemos atender você onde quer que esteja.',
+      'Sim. Atendemos empresas dos mais variados segmentos: salões de beleza, academias, clínicas, lojas, restaurantes, escritórios, prestadores de serviço e muito mais. Se você tem um negócio digital ou físico, podemos ajudar.',
   },
 ]
